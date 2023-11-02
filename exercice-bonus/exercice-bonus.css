@@ -33,24 +33,24 @@ button:hover {
     border: 5px solid red;
 }
 
-#ciseaux {
+.ciseaux {
     background-image: url("assets/Ciseaux.png");
     background-position: center;
     background-size: 80%;
 }
-#feuille {
+.feuille {
     background-image: url("assets/Feuille.png");
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
 }
-#pierre {
+.pierre {
     background-image: url("assets/Pierre.png");
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
 }
-#puit {
+.puit {
     background-image: url("assets/puit.jpg");
     background-position: center;
     background-size: 80%;

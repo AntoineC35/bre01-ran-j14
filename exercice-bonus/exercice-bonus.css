@@ -1,0 +1,58 @@
+* {
+    font-family: 'Playpen Sans', cursive;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+    background-color: white;
+    color: black; 
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+button:hover {
+    border: 5px solid red;
+}
+
+#ciseaux {
+    background-image: url("assets/Ciseaux.png");
+    background-position: center;
+    background-size: 80%;
+}
+#feuille {
+    background-image: url("assets/Feuille.png");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#pierre {
+    background-image: url("assets/Pierre.png");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#puit {
+    background-image: url("assets/puit.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
